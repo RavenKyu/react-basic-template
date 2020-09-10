@@ -1,17 +1,15 @@
 import React from 'react';
-import EchoLabel from './components/EchoLabel'
+import Buttons from './components/ButtonContainer'
 
-class App extends React.Component {
+class EchoLabel extends React.Component {
     render(){
         return (
             <div style={ {textAlign: 'center'} }>
-                 <EchoLabel />
+                 <Buttons />
             </div>
         );
     }
 
 }
 
-
-
-export default App;
+export default EchoLabel;
